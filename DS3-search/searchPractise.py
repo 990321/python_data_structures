@@ -81,7 +81,7 @@ def binarySearch(alist,item):
             return binarySearch(alist[midpoint+1:],item)
 
 testlist3 = [0,1,2,8,13,17,19,32,42]
-print(binarySearch(testlist3,50))
+print(binarySearch(testlist3,8))
 
 
 
